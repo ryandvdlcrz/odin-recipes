@@ -1,3 +1,12 @@
+*,
+*::before,
+*::after{
+    box-sizing: border-box;
+}
+*{
+    margin: 0px;
+    padding: 0px;
+}
 body{
     background-color: #faf3e0;
 }
@@ -26,12 +35,26 @@ body{
     display: flex;
 }
 .img{
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    width: 100%;
+    border-style:ridge;
+    width: 600px;
     height: auto;
+    border-radius: 25px;
+    padding: auto;
+    margin: 20px 0 20px 350px;
 }
 ul li::marker{
     color:#6c6c6c;
+}
+.food{
+    font-family: 'Impact', fantasy;
+    margin-bottom: 10px;
+    padding-left: 10px;
+}
+.container{
+    font-family: 'Helvetica' sans-serif;
+    font-weight: 400px;
+    padding-left: 1.125rem;
+}
+.ingredients{
+    font-family: 'Impact', fantasy;
 }
